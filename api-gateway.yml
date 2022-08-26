@@ -21,4 +21,4 @@ spring:
         - id: api-passive
           uri: http://localhost:18082/
           predicates:
-            - Path=//v1/accounts/**
+            - Path=/v1/accounts/**
