@@ -1,10 +1,10 @@
 server:
   port: 18085
-  
+
 spring:
+  application:
+    name: api-product
   data:
-    application:
-      name: product
     mongodb:
       uri: mongodb://localhost:27017/Bank
     
