@@ -4,3 +4,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/Bank
+  application:
+    name: api-product
