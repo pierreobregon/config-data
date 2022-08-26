@@ -13,7 +13,8 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: product
-          uri: http://localhost:18085/
+        - id: api-product
+          #uri: http://localhost:18085/
+          uri: lb://api-product
           predicates:
             - Path=/v1/products/**
